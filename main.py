@@ -18,8 +18,8 @@ def get_difficulty(track):
         return "Hard"
 
 if __name__ == '__main__':
-    print(get_difficulty("SLSLLSRRLSRLRL"))
-    print()
-    print(get_difficulty("LLRSLRLRSLLRLRSLRRLRSRLLS"))
-    print()
-    print(get_difficulty("SRRRRLSLLRLRSSRLSRL"))
+    print(get_difficulty("SRSLSRSLSRRSLSRSRSLSRLSRSR"))
+    #print()
+    #print(get_difficulty("LLRSLRLRSLLRLRSLRRLRSRLLS"))
+    #print()
+    #print(get_difficulty("SRRRRLSLLRLRSSRLSRL"))
