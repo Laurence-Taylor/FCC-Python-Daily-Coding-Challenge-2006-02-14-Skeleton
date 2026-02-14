@@ -8,6 +8,7 @@ def get_difficulty(track):
                 difficulty += 15
             else:
                 difficulty += 5
+        pos_ant = track[i]
     print(difficulty)
     if 0 <= difficulty <= 100:
         return "Easy"
